@@ -1,0 +1,48 @@
+
+<h3>Identificação</h3><br>
+<form #userForm = "ngForm" (ngSubmit)="onSubmit()">
+    <p>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Digite seu email" [(ngModel)]="userModel.email">
+    </p>
+
+    <p>
+    <label for="senha">Senha</label>
+    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" [(ngModel)]="userModel.senha">
+    </p>
+    <!-- <p *ngIf = userModel.email !="">Existe</p> -->
+    <p>
+        <button type="submit">Enviar</button>
+    </p>
+    <a href="#"> Esqueci minha senha</a><br>
+</form>
+
+<h3>Novo Cadastro</h3> <br>
+ <form #userForm="ngForm" (ngSubmit)="onSubmit()">
+     <p>
+        <label for="nome">Nome:</label>
+        <input type="nome" id="nome" name ="nome" placeholder="Digite seu nome" [(ngModel)]="userModel.email" required><br>
+   
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name ="email" placeholder="Digite seu email" [(ngModel)]="userModel.email" required><br>
+   
+    </p>
+
+    <p>     
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name= "senha" placeholder="Digite sua senha"[(ngModel)]="userModel.senha" required><br>
+    </p>
+
+    <p>     
+        <label for="novamenteSenha">Senha de novo:</label>
+        <input type="password" id="novamenteSenha" name= "novamenteSenha" placeholder="Digite sua senha novamente"[(ngModel)]="userModel.senha" required><br>
+    </p>
+    
+       
+    <button type="submit" value="Cadastrar"> Novo Cadastro</button>
+    
+   
+</form>
+
