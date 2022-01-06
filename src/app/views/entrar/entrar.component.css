@@ -1,0 +1,38 @@
+*{
+    align-items: center;
+}
+.cadastrar{
+    height: 400px;
+    padding-top: 40px;
+    width: 1000px;
+   
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    display:flex;
+    background-position: center;    
+}
+.novo_cadastro{
+    height: 300px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    background-position: center;     
+     
+}
+
+
+/*Página Entrar */
+.cadastrarEmail{
+    height: 300px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    background-position: center;     
+      
+}
+.email{
+    background: radial-gradient(circle at 100%, #333, #333 50%, #eee);
+}

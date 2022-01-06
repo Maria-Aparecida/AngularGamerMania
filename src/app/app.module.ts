@@ -2,6 +2,9 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
+
+import { HttpClientModule} from '@angular/common/http';
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './views/home/home.component';
 import { ConsoleComponent } from './views/console/console.component';
@@ -28,6 +31,7 @@ import { FooterComponent } from './views/footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     FormsModule
   ],
   providers: [],

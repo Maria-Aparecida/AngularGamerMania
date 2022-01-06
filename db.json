@@ -1,0 +1,40 @@
+{
+  "promocao": [
+    {
+      "id": 1,
+      "titulo": "promoção 1",
+      "descricao": "notebook dell com 30% desconto"
+    },
+    {
+      "titulo": "Promoção 2",
+      "descricao": "PC para gamer com 15% de desconto",
+      "id": 2
+    },
+    {
+      "titulo": "Promoção 3",
+      "descricao": "Console com 25% de desconto",
+      "id": 3
+    },
+    {
+      "titulo": "Promoção 4",
+      "descricao": "Outlet  com 40% de desconto",
+      "id": 4
+    },
+    {
+      "titulo": "Promoção 5",
+      "descricao": "Video Game com 20% de desconto",
+      "id": 5
+    },
+    {
+      "titulo": "Promoção 6",
+      "descricao": "Notebook Accer com 50% de desconto",
+      "id": 6
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Maria"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+*{       
+    width: 100%;  
+    margin:0 auto;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    
+}
+.rodape{ 
+    width: 100%; 
+    margin: 0 auto;
+    
+    
+}
+.rodape_Direito, .rodape_Esquerdo{
+    width: 600px;
+    height: 200px;    
+    align-items: center;
+    text-align: right;   
+    align-items: left;
+    justify-content:space-between;
+    /* width: 100%; */
+    font-size: 25px;  
+    
+    
+      
+}

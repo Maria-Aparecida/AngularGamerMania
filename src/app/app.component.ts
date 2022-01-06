@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+declare function slide(): void;
+  
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'GamerMania';
+   title = 'GamerMania';
+  
+  // myScriptElement: HTMLScriptElement;
+  // constructor(){
+  //   slide();
+  //   this.myScriptElement = document.createElement("script");
+  //   this.myScriptElement.scr ="......";
+  //   document.body.appendChild(this.myScriptElement);
+  // }
 }

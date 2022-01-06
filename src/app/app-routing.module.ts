@@ -14,6 +14,7 @@ const routes: Routes = [
   {path: "jogos", component: JogosComponent},
   {path: "outlet", component: OutletComponent},
   {path: "pc", component: PcComponent}
+  
 ];
 
 @NgModule({
