@@ -1,4 +1,14 @@
 {
+  "users": [
+    {
+      "nome": "Maria",
+      "email": "maria@gmail.com",
+      "senha": "12345678",
+      "nova_senha": "12345678",
+      "id": 1
+    }
+   
+  ],
   "promocao": [
     {
       "id": 1,
@@ -29,12 +39,6 @@
       "titulo": "Promoção 6",
       "descricao": "Notebook Accer com 50% de desconto",
       "id": 6
-    }
-  ],
-  "usuarios": [
-    {
-      "id": 1,
-      "nome": "Maria"
     }
   ]
 }
